@@ -39,6 +39,6 @@ func main() {
 				fmt.Println(num1/num2)
 			}
 		default:
-			fmt.Println("Error: Invalid operator. Use +, -, *, or /.")
+			fmt.Println(`Error: Invalid operator. Use +, -, *, or /.`)
 	}
 }
