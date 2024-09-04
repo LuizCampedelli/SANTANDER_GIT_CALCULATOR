@@ -30,5 +30,7 @@ func main() {
 			fmt.Println(num1 + num2)
 		case "-":
 			fmt.Println(num1 - num2)
+		case "*":
+			fmt.Println(num1 * num2)
 	}
 }
