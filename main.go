@@ -24,4 +24,9 @@ func main() {
 		return
 	}
 
-	
+	// realiza a operação
+	switch operator {
+	case "+":
+		fmt.Println(num1 + num2)
+	}
+}
