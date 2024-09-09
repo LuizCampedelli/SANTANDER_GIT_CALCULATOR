@@ -7,6 +7,26 @@ To use it you must have Go installed in your computer, in Linux you can easy ins
 ```
 sudo snap install go --classic
 ```
+
+or
+
+```bash
+sudo  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.1.linux-amd64.tar.gz
+```
+
+than you must add the Go path to your .bashrc or .zshrc file:
+
+```bash
+export PATH=$PATH:/usr/local/go/bin
+```
+
+verify if the Go is installed:
+
+```bash
+go version
+```
+
+
 For other languagues, check the Go website:
 
 
