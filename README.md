@@ -55,10 +55,6 @@ or run in terminal:
 
 ```bash
   go run main.go 5 + 3
-
-  or
-
-  ./calculator.go 5 + 3
 ```
 ### Result:
 
