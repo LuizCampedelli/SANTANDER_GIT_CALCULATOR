@@ -37,6 +37,22 @@ For other languagues, check the Go website:
 
 ### Run direct from command line:
 
+### For the web interface:
+
+```bash
+  go run main.go
+```
+
+### Open your browser and access:
+
+```bash
+  http://localhost:8080
+```
+
+results will be printed in the web browser.
+
+or run in terminal:
+
 ```bash
   go run main.go 5 + 3
 
